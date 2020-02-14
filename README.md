@@ -69,7 +69,7 @@ git clone https://github.com/artur-shaik/vim-javacomplete2.git
 ```
 
 ## 配置
-[配置文件]()
+[配置文件](https://github.com/Z0nghe/My-Vim-plugin-Configuration/blob/master/.vimrc)
 
 ## 使用
 #### NERDTree
