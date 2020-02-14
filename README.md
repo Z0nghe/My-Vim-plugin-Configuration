@@ -15,53 +15,53 @@
 - [vim-javacomplete2](https://github.com/artur-shaik/vim-javacomplete2) 基于vim官网原版javacomplete插件改进的Java代码补全插件。
 
 ## 安装
-#### Pathogen
-###### 创建vim插件目录，Pathogen管理的插件都放在`bundle`目录下
+### Pathogen
+##### 创建vim插件目录，Pathogen管理的插件都放在`bundle`目录下
 
 ```
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 ```
-###### 下载Pathogen到`autoload`目录
+##### 下载Pathogen到`autoload`目录
 
 ```
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-#### vim-sensible
+### vim-sensible
 
 ```
 cd ~/.vim/bundle &&\
 git clone https://github.com/tpope/vim-sensible.git
 ```
 
-#### vim-powerline
+### vim-powerline
 
 ```
 cd ~/.vim/bundle &&\
 git clone https://github.com/Lokaltog/vim-powerline.git
 ```
 
-#### NERDTree
+### NERDTree
 
 ```
 cd ~/.vim/bundle &&\
 git clone https://github.com/preservim/nerdtree.git
 ```
 
-#### nerdtree-git-plugin
+### nerdtree-git-plugin
 ```
 cd ~/.vim/bundle &&\
 git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
 ```
 
-#### vim-commentary
+### vim-commentary
 
 ```
 cd ~/.vim/bundle &&\
 git clone https://github.com/tpope/vim-commentary.git
 ```
 
-#### vim-javacomplete2
+### vim-javacomplete2
 
 ```
 cd ~/.vim/bundle &&\
@@ -72,7 +72,7 @@ git clone https://github.com/artur-shaik/vim-javacomplete2.git
 [配置文件](https://github.com/Z0nghe/My-Vim-plugin-Configuration/blob/master/.vimrc)
 
 ## 使用
-#### NERDTree
+### NERDTree
 
 快捷键 | 功能
 ---|---
@@ -110,11 +110,11 @@ git clone https://github.com/artur-shaik/vim-javacomplete2.git
 `q`|关闭 NerdTree 窗口
 `?`|切换是否显示 Quick Help
 
-#### vim-commentary
+### vim-commentary
 ##### 在普通模式下按`v`键进入块模式，使用hjkl选中代码块，按`gc`注释，取消注释也是同样的步骤。
 ##### 在普通模式下按`V`键进入块模式选中当前行，按`gc`注释，取消注释也是同样的步骤。
 
-#### vim-javacomplete2
+### vim-javacomplete2
 ##### 在java代码插入模式中按`Ctrl+x`+`Ctrl+o`进行方法补全。
 ##### `F4`开启智能导入类
 ##### `F5`开启普通导入类（询问导入的类）
